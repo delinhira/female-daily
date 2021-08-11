@@ -1,0 +1,30 @@
+.editors-choice-card {
+  .editor-info {
+    margin-bottom: -20px;
+    margin-left: spacing(md);
+    display: flex;
+
+    .editor-picture {
+      width: 60px;
+      height: 60px;
+      border-radius: 50px;
+      border: $border1;
+      margin-right: spacing(md);
+      background: $white;
+    }
+
+    .editor-data {
+      .editor-name {
+        font-weight: $bold;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .editor-title {
+        color: gray(primary);
+        font-size: fontSize(sm);
+        margin-top: 0;
+      }
+    }
+  }
+}

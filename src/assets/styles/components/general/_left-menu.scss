@@ -1,0 +1,64 @@
+.left-menu {
+  background-color: pink(primary);
+  width: 20%;
+  min-width: fit-content;
+  max-width: 20rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  transition: all 1s ease-out;
+
+  &.open {
+    display: none;
+    background-color: #fff;
+  }
+
+  .collapse-left-menu {
+    font-size: fontSize(lg);
+    border: none;
+    padding: spacing(sm) spacing(md);
+    display: block;
+    margin: spacing(md);
+    margin-left: auto;
+    border-radius: radius(sm);
+    background-color: $white;
+    color: pink(primary);
+
+    &:hover {
+      background: pink(lighten);
+      color: $white;
+    }
+    &:active {
+      color: pink(primary);
+    }
+  }
+
+  ul.navbar-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      button.link {
+        width: 100%;
+        text-align: left;
+        padding: spacing(md) spacing(lg);
+        text-transform: uppercase;
+        font-weight: $bold;
+        color: $white;
+        border: none;
+        background: none;
+
+        &:hover {
+          background-color: pink(lighten);
+        }
+
+        &:active {
+          color: pink(primary);
+        }
+      }
+    }
+  }
+}

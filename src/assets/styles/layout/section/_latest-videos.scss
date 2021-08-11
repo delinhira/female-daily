@@ -1,0 +1,17 @@
+.left-video {
+  .main-video {
+    width: 720px;
+    height: 405px;
+  }
+}
+
+.right-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .small-video {
+    width: 336px;
+    height: 189px;
+  }
+}

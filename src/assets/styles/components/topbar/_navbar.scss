@@ -1,0 +1,33 @@
+.navbar {
+  border-bottom: $border2;
+
+  .navbar-container {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  ul.navbar-menu-list {
+    height: $topbarRow;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      display: block;
+      padding: 0 spacing(md);
+      text-align: center;
+
+      a.link {
+        text-transform: uppercase;
+        font-weight: $bold;
+
+        &:hover {
+          color: pink(primary);
+        }
+      }
+    }
+  }
+}

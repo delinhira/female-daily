@@ -1,0 +1,16 @@
+.utility-text {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: spacing(lg);
+}
+
+.no-data {
+  @extend .utility-text;
+  color: pink(primary);
+  font-weight: $bold;
+}
+
+.loading {
+  @extend .utility-text;
+  height: 10rem;
+}

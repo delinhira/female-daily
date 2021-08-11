@@ -1,0 +1,28 @@
+.section {
+  margin: spacing(lg) 0;
+  box-sizing: border-box;
+
+  .section-title {
+    margin-bottom: 0;
+  }
+
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .section-subtitle {
+      font-weight: normal;
+    }
+
+    .see-more {
+      @extend .link-pink;
+      font-size: fontSize(lg);
+      color: pink(primary);
+    }
+  }
+
+  .section-content {
+    padding-top: spacing(lg);
+  }
+}

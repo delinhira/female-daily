@@ -1,0 +1,77 @@
+/*
+    variables
+*/
+
+// colors
+$black: #000000;
+$white: #ffffff;
+
+$pinks: (
+  primary: #db284e,
+  secondary: #dc294f,
+  lighten: #f4bec9,
+);
+@function pink($shade) {
+  @return map-get($pinks, $shade);
+}
+
+$grays: (
+  primary: #9b9b9b,
+  // text
+  secondary: #7b7b7b,
+  // footer
+  lighten: #f0f0f0,
+  // lastest review border, time
+  darken: #5a5a5a,
+  // ads border, ads text
+  lighten2: #efefef,
+  lighten3: #d8d8d8,
+);
+@function gray($shade) {
+  @return map-get($grays, $shade);
+}
+
+// spacing
+$spacings: (
+  lg: 2rem,
+  md: 1rem,
+  sm: 0.5rem,
+  xs: 0.25rem,
+);
+@function spacing($size) {
+  @return map-get($spacings, $size);
+}
+
+// height
+$topbarRow: 3.5rem;
+
+// border
+$border1: 1px solid gray(lighten2);
+$border2: 2px solid gray(lighten);
+$border3: 1px solid gray(darken);
+
+// border radius
+$radiuses: (
+  lg: 10px,
+  sm: 5px,
+);
+@function radius($size) {
+  @return map-get($radiuses, $size);
+}
+
+// font-size
+$fontSizes: (
+  xl: 1.5rem,
+  lg: 1.25rem,
+  md: 1rem,
+  sm: 0.75rem,
+);
+@function fontSize($size) {
+  @return map-get($fontSizes, $size);
+}
+
+// bold
+$bold: 700;
+
+// shadow
+$shadow: -4px 4px 10px rgba(0, 0, 0, 0.05);

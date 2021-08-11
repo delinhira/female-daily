@@ -1,0 +1,27 @@
+.ads {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: spacing(md) auto;
+  background: gray(lighten3);
+  border: $border3;
+  font-size: fontSize(xl);
+  font-weight: bold;
+  color: gray(darken);
+  text-align: center;
+}
+
+.ads-mr {
+  @extend .ads;
+  @include size(300px, 250px);
+}
+
+.ads-frame {
+  @extend .ads;
+  @include size(970px, 50px);
+}
+
+.ads-billboard {
+  @extend .ads;
+  @include size(970px, 250px);
+}

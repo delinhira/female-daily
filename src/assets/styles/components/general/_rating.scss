@@ -1,0 +1,18 @@
+.rating {
+  display: flex;
+  align-items: center;
+
+  p {
+    margin: 0;
+  }
+
+  .rating-value {
+    font-weight: $bold;
+    font-size: fontSize(sm);
+    margin-right: spacing(sm);
+  }
+
+  .rating-count {
+    margin-left: spacing(sm);
+  }
+}

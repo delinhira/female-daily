@@ -1,0 +1,109 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: spacing(sm) 0;
+}
+
+h1,
+.h1 {
+  color: $black;
+  font-size: fontSize(xl);
+  line-height: fontSize(xl);
+  font-weight: $bold;
+}
+
+h2,
+.h2 {
+  color: gray(primary);
+  font-weight: normal;
+  font-size: fontSize(lg);
+  line-height: fontSize(lg);
+
+  &.black {
+    color: $black;
+  }
+}
+
+p {
+  color: $black;
+  font-size: fontSize(md);
+  line-height: fontSize(md) + 0.25rem;
+}
+
+a {
+  color: $black;
+  font-size: fontSize(md);
+  line-height: fontSize(md);
+  text-decoration: none;
+}
+
+.link-pink {
+  color: pink(primary);
+
+  &:hover {
+    color: pink(lighten);
+  }
+}
+
+.link-black {
+  color: $black;
+
+  &:hover {
+    color: pink(primary);
+  }
+}
+
+// layout
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.content-container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.flex-between {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-between-align-center {
+  @extend .flex-between;
+  align-items: center;
+}
+
+// button
+.btn-pink {
+  color: $white;
+  background: pink(secondary);
+  padding: spacing(md) spacing(lg);
+  font-size: fontSize(md);
+  border: 1px solid pink(secondary);
+  border: none;
+
+  &:hover {
+    color: $white;
+    background: pink(lighten);
+  }
+
+  &:active {
+    color: pink(secondary);
+  }
+
+  &.rounded {
+    border-radius: radius(sm);
+  }
+}

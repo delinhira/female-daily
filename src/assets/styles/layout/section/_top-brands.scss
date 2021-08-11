@@ -1,0 +1,21 @@
+.top-brand {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 spacing(lg);
+  margin-bottom: spacing(lg) * 2;
+
+  .brand-container {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+
+    .brand-logo {
+      max-height: 100%;
+      max-width: 8rem;
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+}

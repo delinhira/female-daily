@@ -1,0 +1,36 @@
+.recommendation-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: spacing(lg);
+  box-sizing: border-box;
+  background-size: contain;
+
+  .section-content {
+    padding-bottom: spacing(lg);
+  }
+
+  .recommendation-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-left: 7rem;
+    box-sizing: border-box;
+
+    .recommendation-text {
+      width: 33%;
+
+      h1 {
+        margin-bottom: spacing(lg);
+      }
+      h2 {
+        margin-bottom: spacing(lg);
+      }
+
+      button {
+        display: block;
+        margin-left: auto;
+      }
+    }
+  }
+}

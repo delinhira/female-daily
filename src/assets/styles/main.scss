@@ -1,0 +1,40 @@
+/*
+    main
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+// custom
+@import "./custom/variables";
+@import "./custom/mixin";
+
+// index
+@import "./index";
+
+// components
+@import "./components/general/ads";
+@import "./components/general/carousel";
+@import "./components/general/general";
+@import "./components/general/image";
+@import "./components/general/left-menu";
+@import "./components/general/rating";
+@import "./components/general/section";
+@import "./components/general/utility";
+
+@import "./components/cards/article-card";
+@import "./components/cards/editors-choice-card";
+@import "./components/cards/popular-group-card";
+@import "./components/cards/product-card";
+@import "./components/cards/review-card";
+
+@import "./components/topbar/navbar";
+@import "./components/topbar/search-bar";
+
+//layout
+@import "./layout/footer";
+@import "./layout/main-layout";
+
+@import "./layout/section/latest-reviews";
+@import "./layout/section/latest-videos";
+@import "./layout/section/recommendation";
+@import "./layout/section/top-brands";

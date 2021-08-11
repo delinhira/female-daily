@@ -1,0 +1,12 @@
+main {
+  min-height: 100vh;
+  margin: 0 auto;
+  background: $white;
+  box-sizing: border-box;
+
+  .main-content {
+    max-width: 1080px;
+    margin: 0 auto;
+    background: $white;
+  }
+}
