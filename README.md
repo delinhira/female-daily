@@ -1,10 +1,6 @@
 # female-daily
 
-Clone the repo with:
-
-### `git clone https://github.com/delinhira/female-daily.git`
-
-Install he project dependencies with:
+In the project directory run:
 
 ### `npm install`
 
